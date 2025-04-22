@@ -155,7 +155,9 @@
   width: 334px;
   min-height: 596px;
   list-style-type: none;
-  background-color: chartreuse;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
 .card-link {
@@ -191,23 +193,14 @@
 }
 
 .card_type_film {
-  position: relative;
-  background-size: cover;
-  background-position: center;
   background-image: url(/images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  position: relative;
-  background-size: cover;
-  background-position: center;
   background-image: url(/images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  position: relative;
-  background-size: cover;
-  background-position: center;
   background-image: url(/images/card-lot-03.jpg);
 }
 
